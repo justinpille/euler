@@ -7,19 +7,16 @@
 
 */
 
-export const sumTo = (max: number) => {
-   
-  let count = 0
-  let sum = 0
+ 
+let count = 0
+let sum = 0
 
-  while (count < max) {
-    if (count % 3 === 0 || count % 5 === 0) {
-      sum += count 
-    }
-    count++
+while (count < 1000) {
+  if (count % 3 === 0 || count % 5 === 0) {
+    sum += count 
   }
-
-  return sum
+  count++
 }
 
-console.log(sumTo(1000))
+console.log(sum)
+
