@@ -7,16 +7,14 @@
 
 */
 
- 
-let count = 0
-let sum = 0
+let count = 0;
+let sum = 0;
 
 while (count < 1000) {
   if (count % 3 === 0 || count % 5 === 0) {
-    sum += count 
+    sum += count;
   }
-  count++
+  count++;
 }
 
-console.log(sum)
-
+console.log(sum);
